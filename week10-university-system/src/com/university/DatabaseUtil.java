@@ -11,8 +11,8 @@ public class DatabaseUtil {
     private static final String URL = "jdbc:mysql://localhost:3306/university_db";
     // The default username for MySQL
     private static final String USER = "root";
-    //     CHANGE THIS TO YOUR ACTUAL MYSQL PASSWORD
-    private static final String PASSWORD = "your_password";
+    // Test password for the local MySQL server
+    private static final String PASSWORD = "password123";
 
     // This method returns a Connection object. It throws SQLException if it fails.
     public static Connection getConnection() throws SQLException {
